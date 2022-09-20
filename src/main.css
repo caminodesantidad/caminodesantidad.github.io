@@ -1,0 +1,111 @@
+/* general settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --vinotinto: rgb(141, 47, 47);
+    --white_on: rgb(238, 234, 234);
+    --white_off: rgb(172, 166, 166);
+    --black_on: rgb(53, 53, 53);
+    --black_off: rgb(14, 13, 13);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--black-off);
+    text-decoration: none;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* customize bootstrap */
+
+.bg-primary {
+    background-color: var(--vinotinto) !important;
+}
+
+.text-primary {
+    color: var(--vinotinto) !important;
+}
+
+.bg-dark {
+    color: var(--black_on);
+}
+
+.text-dark {
+    color: var(--black_on);
+}
+
+.nav-link {
+    color: var(--white_off) !important;
+}
+
+.nav-link:hover {
+    color: var(--white_on) !important;
+}
+
+/* css native */
+
+.bg-white-on {
+    background-color: var(--white_on);
+}
+
+.bg-white-off {
+    background-color: var(--white_off);
+}
+
+.text-white-on {
+    color: var(--white_on);
+}
+
+.text-white-off {
+    color: var(--white_off);
+}
+
+#local {
+    margin-top:50px;
+    display:flex;
+    justify-content: center; 
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 7em;
+}
+
+.wrapper-local {
+    padding-top: 5em;
+    width:50vw;
+    height: 80vh;
+}
+
+#social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa {
+    font-size: 3em;
+    padding-top: 2em;
+    color: var(--white_off);
+}
+
+.fa:hover {
+    color: var(--vinotinto);
+    transition: 0.3s;   
+}
+
+
+
